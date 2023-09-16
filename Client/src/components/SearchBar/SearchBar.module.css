@@ -1,0 +1,51 @@
+.containerSearchBar {
+  align-items: center;
+  margin-top: 25px;
+}
+
+.botonNavAgregar {
+    font-family: 'Comic Sans MS', sans-serif;
+    font-size: 26px;
+    background-color: transparent;
+    border: none;
+    color: white;
+    cursor: pointer;
+    transition: color 0.3s ease;
+    margin-right: 10px;
+  }
+
+  .botonNavAgregar:hover {
+    color: #e7ff0c; /* Hover color */
+  }
+
+.botonNavRandom {
+    font-family: 'Comic Sans MS', sans-serif;
+    font-size: 26px;
+    background-color: transparent;
+    border: none;
+    color: white;
+    cursor: pointer;
+    transition: color 0.3s ease;
+    margin-left: 10px;
+  }
+
+  .botonNavRandom:hover {
+    background: linear-gradient(45deg, #ff2222, #10ff10, #18d1ff, #e74c3c);
+    background-clip: text; /* Aplicar el gradiente solo al texto */
+    -webkit-background-clip: text; /* Para navegadores basados en WebKit */
+    color: transparent; /* Hacer el color del texto transparente */
+  }
+
+  .inputNav {
+    font-family: 'Comic Sans MS', sans-serif;
+    font-size: 16px;
+    padding: 8px 12px;
+    border: 6px solid #ccc;
+    border-radius: 5px;
+    width: 100px;
+    transition: border-color 0.3s ease;
+  }
+
+  .inputNav:hover {
+    border-color: #e7ff0c;
+  }

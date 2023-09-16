@@ -1,0 +1,68 @@
+.card {
+  border: 4px solid #746335;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: #fff9da;
+  text-align: center;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+}
+
+  .detailLink {
+    text-decoration: none;
+    color: #333;
+  }
+
+  .name {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    margin-top: 15px; /* Slightly increased margin */
+  }
+
+.status,
+.species,
+.gender,
+.origin {
+  font-size: 20px; 
+  color: #555; 
+
+}
+.status,
+.species,
+.gender,
+.origin {
+  margin-bottom: 8px;
+}
+  
+.imgCard {
+  display: block;
+  margin: 15px auto;
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+  .favoriteButton {
+    background-color: transparent;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+    outline: none;
+    margin-right: 170px; /* Adjust margin for spacing */
+  }
+
+  .closeButton {
+    background-color: transparent;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+    outline: none;
+    color: #ce1703;
+    font-weight: bold;
+  }

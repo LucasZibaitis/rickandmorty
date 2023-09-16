@@ -1,0 +1,41 @@
+
+.containerNav {
+    background-color: #1f1f1f;
+    height: 150px;
+    align-items: center;
+}
+
+.botonNav {
+    font-family: 'Comic Sans MS', sans-serif;
+    font-size: 26px;
+    background-color: transparent;
+    border: none;
+    color: white;
+    cursor: pointer;
+    transition: color 0.3s ease;
+    margin-right: 20px;
+  }
+  
+  .botonNav:hover {
+    color: #3a47ff; /* Hover color */
+  }
+
+  .botonNavLogOut {
+    font-family: 'Comic Sans MS', sans-serif;
+    font-size: 30px;
+    background-color: transparent;
+    border: none;
+    color: white;
+    cursor: pointer;
+    transition: color 0.3s ease;
+    margin-right: 20px;
+  }
+
+  .botonNavLogOut:hover {
+    color: #eb2121; /* Hover color */
+  }
+
+  .hrNav {
+    border: none; /* Elimina el estilo por defecto de la línea divisoria */
+    border-top: 5px solid rgb(255, 255, 255); /* Agrega una línea sólida de 2px de grosor en la parte superior */
+  }

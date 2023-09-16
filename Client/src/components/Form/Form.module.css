@@ -1,0 +1,84 @@
+
+.warning {
+    border: solid red 2px;
+    margin-top: 5px;
+    width: auto;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: white;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .danger {
+    font-size: 14px;
+    color: red;
+  }
+
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url(https://www.todofondos.net/wp-content/uploads/3440x1440-Rick-y-Morty-Wallpaper.-Rick-y-Morty.-Rick-Morty-Dan-Harmon.png) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .loginForm {
+    background-color: rgb(18, 19, 49); 
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    width: 300px;
+    color: white;
+    text-align: center;
+    align-items: center;
+    margin-top: 0px;
+  }
+
+  .inputGroup {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .labelForm {
+    font-family: 'Comic Sans MS', sans-serif;
+    font-size: 18px;
+    margin-bottom: 5px;
+    padding: 5px;
+  }
+
+  .inputForm {
+    margin-top: 5px;
+    width: auto;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: white;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+
+  .inputForm:focus {
+    background-color: rgba(255, 255, 255, 0.2);
+  }
+
+  .buttonForm {
+  background-color: #2ecc71;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.buttonForm:hover {
+  background-color: #27ae60;
+}
+  
