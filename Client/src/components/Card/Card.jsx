@@ -7,11 +7,11 @@ import styles from './Card.module.css'
 
 export function Card(props) {
 
-   const myFavorites = props.myFavorites
+   const {myFavorites, id} = props
    const [isFav, setIsFav] = useState(false)
 
    const handleFavorite = () => {
-      if (isFav === true) {
+      if (isFav) {
          setIsFav(false)
          props.removeFav(props.id)
       } else {
@@ -22,7 +22,7 @@ export function Card(props) {
 
    useEffect(() => {
       myFavorites.forEach((fav) => {
-         if (fav.id === props.id) {
+         if (fav.id === id) {
             setIsFav(true);
          }
       });
@@ -53,3 +53,5 @@ export function mapStateToProps(state) {
 }
 
 export default connect(mapStateToProps, mapDispatchToProps)(Card)
+
+
