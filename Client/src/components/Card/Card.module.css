@@ -22,7 +22,7 @@
     font-size: 24px;
     font-weight: bold;
     color: #333;
-    margin-top: 15px; /* Slightly increased margin */
+    margin-top: 15px; 
   }
 
 .status,
@@ -54,7 +54,7 @@
     font-size: 24px;
     cursor: pointer;
     outline: none;
-    margin-right: 170px; /* Adjust margin for spacing */
+    margin-right: 170px;
   }
 
   .closeButton {

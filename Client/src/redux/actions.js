@@ -1,4 +1,3 @@
-import React from "react";
 import axios from "axios";
 export const ADD_FAV = "ADD_FAV";
 export const REMOVE_FAV = "REMOVE_FAV";
@@ -50,3 +49,4 @@ export const filterCards = (gender) => {
 export const orderCards = (orden) => {
   return { type: ORDER, payload: orden };
 };
+
